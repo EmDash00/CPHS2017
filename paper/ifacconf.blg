@@ -1,0 +1,13 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: ifacconf.aux
+The style file: ifacconf.bst
+Illegal, another \bibstyle command---line 57 of file ifacconf.aux
+ : \bibstyle
+ :          {ieeetr}
+I'm skipping whatever remains of this command
+Database file #1: ifacconf.bib
+Warning--I didn't find a database entry for "Abl:56"
+Warning--I didn't find a database entry for "AbTaRu:54"
+Warning--I didn't find a database entry for "Keo:58"
+Warning--I didn't find a database entry for "Pow:85"
+Warning--there's a number but no volume in mcruer1967review
+(There was 1 error message)

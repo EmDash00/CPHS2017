@@ -1,0 +1,84 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Allen and McRuer(1979)}]{allen1979man}
+Allen, R.W. and McRuer, D. (1979).
+\newblock The man/machine control interface—pursuit control.
+\newblock \emph{Automatica}, 15(6), 683--686.
+
+\bibitem[{Desmurget and Grafton(2000)}]{desmurget2000forward}
+Desmurget, M. and Grafton, S. (2000).
+\newblock Forward modeling allows feedback control for fast reaching movements.
+\newblock \emph{Trends in cognitive sciences}, 4(11), 423--431.
+
+\bibitem[{Gawthrop et~al.(2009)Gawthrop, Loram, and
+  Lakie}]{gawthrop2009predictive}
+Gawthrop, P., Loram, I., and Lakie, M. (2009).
+\newblock Predictive feedback in human simulated pendulum balancing.
+\newblock \emph{Biological cybernetics}, 101(2), 131--146.
+
+\bibitem[{Gawthrop et~al.(2011)Gawthrop, Loram, Lakie, and
+  Gollee}]{gawthrop2011intermittent}
+Gawthrop, P., Loram, I., Lakie, M., and Gollee, H. (2011).
+\newblock Intermittent control: a computational theory of human control.
+\newblock \emph{Biological cybernetics}, 104(1-2), 31--51.
+
+\bibitem[{Harriott and Adams(2013)}]{harriott2013modeling}
+Harriott, C.E. and Adams, J.A. (2013).
+\newblock Modeling human performance for human--robot systems.
+\newblock \emph{Reviews of Human Factors and Ergonomics}, 9(1), 94--130.
+
+\bibitem[{McRuer and Weir(1969)}]{mcruer1969theory}
+McRuer, D. and Weir, D.H. (1969).
+\newblock Theory of manual vehicular control.
+\newblock \emph{Ergonomics}, 12(4), 599--633.
+
+\bibitem[{McRuer and Jex(1967)}]{mcruer1967review}
+McRuer, D.T. and Jex, H.R. (1967).
+\newblock A review of quasi-linear pilot models.
+\newblock \emph{IEEE Transactions on Human Factors in Electronics}, (3),
+  231--249.
+
+\bibitem[{McRuer and Krendel(1974)}]{mcruer1974mathematical}
+McRuer, D.T. and Krendel, E.S. (1974).
+\newblock Mathematical models of human pilot behavior.
+\newblock Technical report, ADVISORY GROUP FOR AEROSPACE RESEARCH AND
+  DEVELOPMENT NEUILLY-SUR-SEINE (FRANCE).
+
+\bibitem[{Robinson et~al.(2016)Robinson, Scobee, Burden, and
+  Sastry}]{robinson2016dynamic}
+Robinson, R.M., Scobee, D.R., Burden, S.A., and Sastry, S.S. (2016).
+\newblock Dynamic inverse models in human-cyber-physical systems.
+\newblock In \emph{Micro-and Nanotechnology Sensors, Systems, and Applications
+  VIII}, volume 9836, 98361X. International Society for Optics and Photonics.
+
+\bibitem[{Roth et~al.(2014)Roth, Sponberg, and Cowan}]{roth2014comparative}
+Roth, E., Sponberg, S., and Cowan, N. (2014).
+\newblock A comparative approach to closed-loop computation.
+\newblock \emph{Current opinion in neurobiology}, 25, 54--62.
+
+\bibitem[{Roth et~al.(2017)Roth, Howell, Beckwith, and Burden}]{roth2017toward}
+Roth, E., Howell, D., Beckwith, C., and Burden, S.A. (2017).
+\newblock Toward experimental validation of a model for human sensorimotor
+  learning and control in teleoperation.
+\newblock In \emph{Micro-and Nanotechnology Sensors, Systems, and Applications
+  IX}, volume 10194, 101941X. International Society for Optics and Photonics.
+
+\bibitem[{Schwenk et~al.(2009)Schwenk, Padilla, Bakken, and
+  Full}]{schwenk2009grand}
+Schwenk, K., Padilla, D.K., Bakken, G.S., and Full, R.J. (2009).
+\newblock Grand challenges in organismal biology.
+\newblock \emph{Integrative and Comparative Biology}, 49(1), 7--14.
+
+\bibitem[{Shadmehr and Mussa-Ivaldi(1994)}]{shadmehr1994adaptive}
+Shadmehr, R. and Mussa-Ivaldi, F.A. (1994).
+\newblock Adaptive representation of dynamics during learning of a motor task.
+\newblock \emph{Journal of Neuroscience}, 14(5), 3208--3224.
+
+\end{thebibliography}
