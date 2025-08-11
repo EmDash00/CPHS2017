@@ -3,6 +3,11 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1016/j.ifacol.2019.01.025-blue)](https://doi.org/10.1016/j.ifacol.2019.01.025)
 [![DOI](https://img.shields.io/badge/DOI-10.1109/TCYB.2021.3110187-blue)](https://doi.org/10.1109/TCYB.2021.3110187)
 
+### Data
+
+Data is available as a [NetCDF4 file](https://drive.google.com/file/d/1a7X2iVtOi3R3P3jdcUBvUJ3bx9EUzvhO/view?usp=sharing).
+It is recommended to use [XArray](https://docs.xarray.dev/en/stable/index.html) to view and manipulate the data in Python.
+
 ### Citations
 
 ```
