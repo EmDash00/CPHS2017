@@ -1,5 +1,6 @@
-cphs2017.h5
-cphs2017.nc*
+hil_superposition-2017.h5
+hil_superposition-2017.nc*
+*.zip
 
 # Python-generated files
 __pycache__/

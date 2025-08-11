@@ -26,7 +26,7 @@ class ParticipantIDMapDescription(tbl.IsDescription):
     participant_id = tbl.StringCol(16)  # pyright: ignore [reportCallIssue]
 
 
-class CPHS2017TrialMetadataDescription(tbl.IsDescription):
+class HILSuperposition2017TrialMetadataDescription(tbl.IsDescription):
     timestamp = tbl.Time64Col()  # pyright: ignore [reportCallIssue]
     protocol_name = tbl.StringCol(16)  # pyright: ignore [reportCallIssue]
     participant_num = tbl.UInt8Col()  # pyright: ignore [reportCallIssue]
@@ -42,7 +42,7 @@ class CPHS2017TrialMetadataDescription(tbl.IsDescription):
     sign = tbl.Int8Col()  # pyright: ignore [reportCallIssue]
 
 
-CPHS2017DataKey = Literal[
+HILSuperposition2017DataKey = Literal[
     "timestamp",
     "protocol_name",
     "participant_id",
@@ -59,7 +59,7 @@ CPHS2017DataKey = Literal[
 ]
 
 
-class CPHS2017DatabaseRow:
+class HILSuperposition2017DatabaseRow:
     def __init__(self, row):
         self._row = row
 
@@ -149,7 +149,7 @@ class CPHS2017DatabaseRow:
         return self._row[key]
 
     def __getitem__(
-        self, key: CPHS2017DataKey
+        self, key: HILSuperposition2017DataKey
     ) -> (
         np.ndarray[tuple[int, ...], np.dtype[np.uint8]]
         | np.ndarray[tuple[int, ...], np.dtype[np.int8]]
@@ -262,8 +262,8 @@ class CPHS2017DatabaseRow:
         self._row["sign"] = value  # Implicitly casts int → np.uint8
 
 
-class CPHS2017Database:
-    def __init__(self, name: str = "cphs2017_pytable.h5") -> None:
+class HILSuperposition2017Database:
+    def __init__(self, name: str = "hil_superposition-2017.pytable.h5") -> None:
         self._database_file = self._ensure_initialized(name)
         self._metadata = typing.cast(
             tbl.Table, self._database_file.get_node("/metadata")
@@ -433,7 +433,7 @@ class CPHS2017Database:
         raw_state: list[list[float]]
         | np.ndarray[tuple[int, ...], np.dtype[np.float64]],
     ) -> None:
-        row = CPHS2017DatabaseRow(self._metadata.row)
+        row = HILSuperposition2017DatabaseRow(self._metadata.row)
 
         row.timestamp = timestamp
         row.protocol_name = protocol_name
@@ -514,7 +514,7 @@ class CPHS2017Database:
         self._tf_disturbance_to_input.append(U / D)
 
     def __iter__(self):
-        return map(CPHS2017DatabaseRow, iter(self._metadata))
+        return map(HILSuperposition2017DatabaseRow, iter(self._metadata))
 
     def __enter__(self, name: str = "data.h5"):
         return self
@@ -526,7 +526,7 @@ class CPHS2017Database:
         f.create_table(
             "/",
             "metadata",
-            CPHS2017TrialMetadataDescription,  # pyright: ignore [reportArgumentType]
+            HILSuperposition2017TrialMetadataDescription,  # pyright: ignore [reportArgumentType]
             expectedrows=NUM_EXPECTED_ROWS,
             filters=COMPRESSION_FILTER,
         )
