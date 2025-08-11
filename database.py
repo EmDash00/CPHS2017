@@ -263,7 +263,7 @@ class HILSuperposition2017DatabaseRow:
 
 
 class HILSuperposition2017Database:
-    def __init__(self, name: str = "hil_superposition-2017.pytable.h5") -> None:
+    def __init__(self, name: str = "HILSuperposition-2017.pytable.h5") -> None:
         self._database_file = self._ensure_initialized(name)
         self._metadata = typing.cast(
             tbl.Table, self._database_file.get_node("/metadata")

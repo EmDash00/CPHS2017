@@ -1,4 +1,4 @@
-# HIL_Superposition-2017
+# HILSuperposition-2017
 
 [![DOI](https://img.shields.io/badge/DOI-10.1016/j.ifacol.2019.01.025-blue)](https://doi.org/10.1016/j.ifacol.2019.01.025)
 [![DOI](https://img.shields.io/badge/DOI-10.1109/TCYB.2021.3110187-blue)](https://doi.org/10.1109/TCYB.2021.3110187)
